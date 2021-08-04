@@ -1,22 +1,37 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
-.f-part{
-    background: url(../img/top-banner.png);
-    background-size: 100% 100%;
-    background-position: center;
+.top-banner{
+    background-image: url(../img/top-banner.png);
     background-repeat: no-repeat;
     overflow: hidden;
 }
-.fp-left{
+.half-width{
     float: left;
-    width: 45%;
+    width: 40%;
+    margin-left: 100px;
 }
-.fp-right{
-    width: 45%;
+.half-width h1{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.half-width h1 .ashik{
+    color: orange;
+}
+.half-width p{
+    color: dimgray;
+    font-weight: 500;
+    line-height: 25px;
+    display: block;
+}
+.half-width{
+    width: 40%;
     float: left;
 }
-.fp-right img{
-    width: 80%;
+.half-width img{
+    width: 100%;
 }
