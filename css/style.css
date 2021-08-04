@@ -3,6 +3,7 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* Banner start */
 .top-banner{
     background-image: url(../img/top-banner.png);
     background-repeat: no-repeat;
@@ -49,4 +50,52 @@ body{
 }
 .half-width img{
     width: 100%;
+}
+/* Banner end */
+
+/* Dream section start */
+.dream{
+    margin-top: 100px;
+    background: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+}
+/* Dream section end */
+
+/* Experience section Start */
+.experience{
+    margin: 100px 0;
+    display: inline-block;
+    background: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience .ex{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.half-width .box{
+    width: 100%;
+    height: 400px;
+    border-left: 8px solid;
+    border-left-color: lightgreen;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 50px gray;
+    padding: 25px;
+}
+.half-width .box h1{
+    font-size: 36px;
+}
+.half-width .box h3{
+    color: orange;
+}
+/* Experience section end */
+.footer{
+    text-align: center;
+    color: gray;
+}
+.footer .fname{
+    color: orange;
 }
